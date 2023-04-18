@@ -36,6 +36,7 @@ img{
 
 .icon{
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

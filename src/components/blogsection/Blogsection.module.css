@@ -12,6 +12,7 @@
 }
 
 .blogs{
+    
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -32,9 +33,14 @@ h1{
     cursor: pointer;
     padding: 1em 1.6em;
     color: black;
-    background-color: rgb(210, 235, 122);
+    background-color: rgb(207, 224, 142);
     border-radius: 1.3em;
     font-weight: 800;
+    transition: all .2;
+}
+
+.button:hover{
+    background-color: rgb(192, 192, 142);
 }
 
 @media only screen and (max-width: 768px) {
