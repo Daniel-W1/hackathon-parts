@@ -1,0 +1,65 @@
+.container{
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 1em;
+}
+
+.downloads, .rating{
+    width: 150px;
+    max-width: 50%;
+}
+
+.big{
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.line{
+    height: .2em;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+.stars, .hearts {
+    width: 100%;
+    display: flex;
+    margin-top: .3em;
+}
+
+.stardiv, .heartdiv{
+    width: 30px;
+    height: auto;
+    margin: .1em;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.caption{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: rgb(196, 188, 188);
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .big{
+        font-size: 3em;
+    }
+    .caption{
+        font-size: .8em;
+    }
+
+    .downloads, .rating{
+        width: 100px;
+    }
+  }
+  
